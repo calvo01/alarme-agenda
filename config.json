@@ -1,0 +1,8 @@
+{
+  "calendarId": "primary",
+  "alertMinutesBefore": [10, 0],
+  "pollIntervalSeconds": 120,
+  "beepFrequency": 880,
+  "beepDurationMs": 400,
+  "beepIntervalMs": 1500
+}

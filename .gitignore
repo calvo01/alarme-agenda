@@ -1,0 +1,18 @@
+# Credenciais e tokens - NUNCA commitar
+credentials.json
+token.json
+
+# Estado local e logs
+alerted.json
+alarme.log
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Windows
+Thumbs.db
+Desktop.ini
