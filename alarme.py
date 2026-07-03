@@ -22,8 +22,7 @@ LOG_FILE = os.path.join(SCRIPT_DIR, "alarme.log")
 
 SCOPES = ["https://www.googleapis.com/auth/calendar.readonly"]
 
-# Tolerancia p/ eventos que caem entre dois ciclos de polling: dispara se o
-# evento cair dentro dos ultimos CATCH_UP_WINDOW_SECONDS antes do alvo.
+
 CATCH_UP_WINDOW_SECONDS = 180
 
 logging.basicConfig(
